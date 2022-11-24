@@ -11,6 +11,26 @@ a:hover {
   color: white;
 }
 
+.blue {
+  color: #58b3f3;
+}
+
+.pink {
+  color: rgba(219, 146, 158, 0.884);
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: rgba(241, 241, 42, 0.87);
+}
+
+.green {
+  color: rgb(38, 224, 38);
+}
+
 .home {
   height: 100vh;
   overflow: hidden;
@@ -459,7 +479,6 @@ a:hover {
 }
 .experience_container .experience_content .experience_details > i {
   margin-top: 6px;
-  color: orange;
 }
 .experience .social-icons {
   display: flex;
