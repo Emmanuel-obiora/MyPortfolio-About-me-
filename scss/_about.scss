@@ -1,0 +1,238 @@
+
+.about-main{
+  display: flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  align-items: center;
+  width: auto;
+  padding: 5%;
+
+  &_top{
+    margin: 2.5rem 0 .5rem 0;
+  }
+    h2, h5 {
+      text-align: center;
+      color: $color-light;
+    }
+    & > h2{
+      color: $color-light;
+      margin-bottom: 1.5rem;
+    }
+
+  .career{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+    margin-top: 2rem;
+    place-items: center;
+
+
+    @media (max-width: 64rem){
+      grid-template-columns: 1fr;
+    }
+
+    .user__profile{
+      display: flex;
+      aspect-ratio: 1/1;
+      border-radius: 2rem;
+      width: 100%;
+      height: 22rem;
+      background: linear-gradient(45deg, transparent, $secondary-color, transparent);
+      align-items: center;
+      justify-content: center;
+
+      @media (max-width: 64rem){
+        width: 50%;
+      }
+
+      @media (max-width: 37.5rem){
+        width: 65%;
+        height: 19rem;
+      }
+
+      .profile-picx{
+        border-radius: 2rem;
+        overflow: hidden;
+        transform: rotate(10deg);
+        height: 100%;
+        @include transition-ease;
+
+        &:hover{
+          transform: rotate(0deg);
+        }
+      }
+    }
+
+    &_right{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-content: center;
+  
+      &-journey{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        
+        @media (max-width: 64rem){
+          grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 37.5rem){
+          grid-template-columns: 1fr;
+          
+        }
+  
+        &-card{
+          width: 100%;
+          background: $primary-varient;
+          border: 1px solid transparent;
+          border-radius: 1rem;
+          padding: 2rem;
+          height: 12rem;
+          text-align: center;
+          @include transition-ease;
+  
+          @media (max-width: 37.5rem){
+            width: 80%;
+            margin-left: 10%;
+          }
+  
+          &:hover{
+            background: transparent;
+            border-color: $secondary-varient;
+            cursor: default;
+          }
+  
+          &>i{
+            color: $secondary-color;
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+          }
+  
+          &>h5{
+            font-size: 1.5rem;
+            color: $color-light;
+            margin-bottom: 1rem;
+  
+          }
+  
+          &>small{
+            font-size: 1rem;
+            color: $color-light;
+            width: 20%;
+          }
+        }
+  
+      }
+        & .parag{
+          margin: 2rem 0;
+          color: $color-light;
+          font-size: 18px;
+  
+          @media (max-width: 37.5rem){
+            margin-left: 10%;
+            width: 80%;
+          }
+        }
+
+        .shift{
+          @media (max-width: 37.5rem){
+            margin-left: 10%;
+          }
+        }
+    }
+  }
+  
+  }
+
+
+.experience{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  padding: 5%;
+
+  @media (max-width: 64rem){
+    margin-top: 5rem;
+  }
+
+  @media (max-width: 37.5rem){
+    margin-top: 13rem;
+  }
+
+  &>h2{
+    margin-top: .5rem;
+  }
+
+  &_container{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    font-size: 18px;
+
+    @media (max-width: 37.5rem){
+      width: 80%;
+      display: grid;
+    }
+    
+
+    &>div{
+      background: $primary-varient;
+      padding: 2.2rem 3rem;
+      border-radius: 2rem;
+      border: 1px solid transparent;
+      width: 100%;
+      @include transition-ease;
+
+      @media (max-width: 37.5rem){
+        padding: 1rem;
+      }
+
+      &:hover{
+        background: transparent;
+        border-color: $secondary-varient;
+        cursor: default;
+      }
+
+      & h3{
+        text-align: center;
+        margin-bottom: 2rem;
+        color: $secondary-color;
+      }
+    }
+
+    .experience_content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+        justify-content: space-between;
+        column-gap: 2rem;
+  
+        .experience_details{
+          display: flex;
+          gap: 1rem;
+  
+          &>i{
+            margin-top: 6px;
+            color: orange;
+          }
+        }
+      }
+    
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  
+  footer {
+    margin: 0 1rem 2rem 0;
+    transform: rotate(90deg) translate(-3rem, -5rem);
+  }
+}
