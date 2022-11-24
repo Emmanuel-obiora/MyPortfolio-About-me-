@@ -1,0 +1,133 @@
+
+.menu-btn {
+    position: absolute;
+    z-index: 1;
+    right: 1rem;
+    top: .5rem;
+    height: 20px;
+    width: 28px;
+    cursor: pointer;
+    @include transition-ease;
+  
+    &__burger {
+      position: absolute;
+      right: 0;
+      top: 0.5rem;
+      width: 26px;
+      height: 3px;
+      background: set-text-color($primary-color);
+      @include transition-ease;
+  
+      &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: -8px;
+        width: 28px;
+        height: 3px;
+        background: set-text-color($primary-color);
+        @include transition-ease;
+      }
+  
+      &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 8px;
+        width: 24px;
+        height: 3px;
+        background: set-text-color($primary-color);
+        @include transition-ease;
+      }
+  
+      &.open {
+        transform: rotate(720deg);
+        background: transparent;
+  
+        &::before {
+          transform: rotate(45deg) translate(5px, 8px);
+        }
+  
+        &::after {
+          width: 28px;
+          transform: rotate(-45deg) translate(3px, -7px);
+        }
+      }
+    }
+  }
+  
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+    margin: 0 0 0 75%;
+    opacity: 0.98;
+    visibility: hidden;
+
+    @media (max-width: 37.5rem){
+      width: 30%;
+      margin: 0 0 0 70%;
+    }
+  
+    &.open {
+      visibility: visible;
+    }
+  
+    .menu-nav {
+      display:flex;
+      flex-flow: column;
+      align-items: center;
+      border-radius: 5%;
+      margin-top: 10px;
+      overflow: hidden;
+      background: $primary-varient;
+      list-style-type: none;
+      padding: 2rem 0 0 0;
+      transform: translateY(-100%);
+      @include transition-ease;
+  
+      &.open {
+        transform: translateY(0);
+      }
+  
+      &__item {
+        transform: translateX(100vw);
+        @include transition-ease;
+  
+        &.open {
+          transform: translateX(0);
+        }
+  
+        &.active > a {
+          color: $secondary-color;
+        }
+      }
+  
+      &__link {
+        display: inline-block;
+        font-size: 1.2rem;
+        width: 50vw;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2rem 0;
+        font-weight: 200;
+        @include transition-ease;
+
+        @media (max-width: 37.5rem){
+          font-size: 0.8rem;
+        }
+      
+  
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+  
+  @for $i from 1 through 10 {
+    .menu-nav__item:nth-child(#{$i}) {
+      transition-delay: (0.1s * $i) + 0.15s;
+    }
+  }
