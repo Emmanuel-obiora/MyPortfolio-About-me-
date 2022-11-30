@@ -1,3 +1,4 @@
+// ===FUNCTION FOR THE TOGGLE BUTTON============
 const menu = document.querySelector(".menu-btn");
 const hamburger = document.querySelector(".menu-btn__burger");
 const nav = document.querySelector(".nav");
@@ -25,3 +26,62 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// =======DYNAMIC LINKING OF COMPLETED PROJECTS====================
+
+const projects = [
+  {
+    img: './assets/mode.png',
+    title: 'Automated Time Mode',
+    github: 'https://github.com/Emmanuel-obiora/Mode/actions/new',
+    demo: 'https://vimeo.com/772726415/740402981e'
+  },
+  {
+    img: './assets/hotel.png',
+    title: 'Responsive Hotel Page',
+    github: 'https://github.com/tolujacob05/HOTEL-project',
+    demo: 'https://vimeo.com/774855500'
+  },
+  {
+    img : './assets/yummyfoods.png',
+    title: 'Food Delivery Website',
+    github: 'https://github.com/Emmanuel-obiora/Yummy-foods',
+    demo: 'https://emmanuel-obiora.github.io/Yummy-foods/web-content/index.html'
+  },
+  {
+    img : './assets/home.png',
+    title: 'My Portfolio',
+    github: 'https://github.com/Emmanuel-obiora/portfolio-about-me-',
+    demo: 'https://emmanuel-obiora.github.io/portfolio-about-me-/web-content/index.html'
+  },
+  {
+    img : './assets/nav-bar.png',
+    title: 'Responsive Nav Bar',
+    github: 'https://github.com/Emmanuel-obiora/Responsive-nav-bar-',
+    demo: 'https://vimeo.com/774849424'
+  },
+  {
+    img : './assets/todo-app.png',
+    title: 'Todo App',
+    github: 'https://github.com/Emmanuel-obiora/todo-app',
+    demo: 'https://emmanuel-obiora.github.io/todo-app/'
+  }
+];
+// console.log(projects.img);
+
+let data = "";
+projects.map((values) => {
+  console.log(values);
+   data+= `<article class="portfolio_item">
+              <div class="portfolio_item-image">
+                <img src=${values.img} alt=${values.title}>
+              </div>
+              <h3>${values.title}</h3>
+              <div class="portfolio_item-cta">
+                <a rel="noopener" href=${values.github} alt="Github profile view" target="_blank" class="btn">Github</a>
+                <a rel="noopener" href=${values.demo} alt="Live demo" target="_blank" class="btn btn-primary">Live Demo</a>
+              </div>
+            </article>`
+});
+document.getElementById("projects").innerHTML=data;
+// console.log(data);
