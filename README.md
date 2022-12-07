@@ -19,7 +19,7 @@ This website is a representation of Obiora Emmanuel covering his growth in tech 
 
 ## Introduction
 
-Obiora is a graduate of Computer Engineering from Enugu State University of SCience and Technology, Enugu state, Nigeria. The web pages contains details of few works done from simple algorithm to complex UI design with an enabled means of communication through JavaScript and other improved technologies in relation to JavaScript. Furthermore, details about Obiora can be perused in the about section, then projects accomplished are documented at the projects section while contact details are on the contact page. Finally this portfolio website is developed with the users in minds, hence all iteractiveness required are put in place.  
+Obiora is a graduate of Computer Engineering from Enugu State University of SCience and Technology, Enugu state, Nigeria. The web pages contains details of few works done from simple algorithm to complex UI design with an enabled means of communication through JavaScript and other improved technologies in relation to JavaScript. Furthermore, details about Obiora can be perused in the about section, then projects accomplished are documented at the projects section while contact details are on the contact page. Finally this portfolio website is developed with the users in minds, hence all interactiveness required are put in place.  
 
 ## Technologies
 
@@ -33,17 +33,8 @@ This project was completed through the use of the following technologies.
 
 ## Illustrations
 
-![Home Page](./web-content/assets/about-me.png)
-Image showing the home page of Yummyfoods.
-
 ![About](./web-content/assets/about-me.png)
-Image showing the menu list and also steps involve to complete an order.
-
-![Skills](./web-content/assets/work-experience.png)
-Image showing one menu list page with eight different items on the menu.
-
-![Projects](./web-content/assets/projects.png)
-Preview of the login and sign-up modal box.
+Image showing about me section.
 
 ![Contact](./web-content/assets/contact.png)
 Image showing a customer default profile page.
@@ -55,11 +46,11 @@ Image showing a customer default profile page.
 * Uniques mix of colors to maintain a welcoming and calm web-page
 * The use of known technology uniquely.
 * Automated dispatch of email in the conatct page.
-* Well organize project portfolio with easy access to important files in relation to a project.
+* Well organized project portfolio with easy access to important files in relation to a project.
 
 ## Project Status
 
-The project is complete. However, it will be updated as new projects are completed.
+The portfolio is complete and has been published. However, it will be updated as new projects are completed.
 
 ## Sources
 
@@ -78,7 +69,7 @@ To run this project on your local machine, simply follow the steps below.
 * Finally click GO Live to view on browser if live server is installed.
 * Else right click on the index file and click on open with (any browser installed on your pc would show here)
 
-Or you can view the published work by clicking this link [Yummyfoods](https://emmanuel-obiora.github.io/Yummy-foods/web-content/index.html)
+Or you can view the published work by clicking this link [My Portfolio](https://emmanuel-obiora.github.io/portfolio-about-me-/web-content/)
 
 ## Other Information
 
