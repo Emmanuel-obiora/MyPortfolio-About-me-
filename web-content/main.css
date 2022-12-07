@@ -147,6 +147,10 @@ a:hover {
   }
 }
 
+.footer__container {
+  display: flex;
+  align-items: center;
+}
 .footer__container .social-icons1 {
   display: flex;
   gap: 0.5rem;
@@ -160,6 +164,11 @@ a:hover {
 }
 .footer__container .foot {
   margin-bottom: 1rem;
+}
+@media (max-width: 37.5rem) {
+  .footer__container .foot {
+    padding: 0.5rem;
+  }
 }
 
 .menu-btn {
@@ -624,7 +633,7 @@ a:hover {
   .contact_mid {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 68%;
   }
 }
 .contact_mid-left {

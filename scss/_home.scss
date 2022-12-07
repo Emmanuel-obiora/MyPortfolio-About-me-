@@ -83,6 +83,8 @@
 
 // =======STYLING THE INDEX FOOTER==============
 .footer__container{
+  display: flex;
+  align-items: center;
 
   .social-icons1{
     display: flex;
@@ -98,5 +100,9 @@
 
   .foot{
     margin-bottom: 1rem;
+
+    @media(max-width: 37.5rem){
+      padding: .5rem;
+    }
   }
 }
