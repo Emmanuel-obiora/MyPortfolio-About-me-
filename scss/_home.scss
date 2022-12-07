@@ -79,3 +79,23 @@
       }
     }
   }
+
+
+// =======STYLING THE INDEX FOOTER==============
+.footer__container{
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  width: 100%;
+
+  .social-icons1{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    padding-left:1rem;
+  }
+
+  .foot{
+    margin-bottom: 1rem;
+  }
+}

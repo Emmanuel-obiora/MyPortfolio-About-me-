@@ -5,7 +5,7 @@
   justify-content: flex-end;
   align-items: center;
   width: auto;
-  padding: 5%;
+  padding: 10%;
 
   &_top{
     margin: 2.5rem 0 .5rem 0;
@@ -47,7 +47,7 @@
 
       @media (max-width: 37.5rem){
         width: 65%;
-        height: 19rem;
+        height: 18rem;
       }
 
       .profile-picx{
