@@ -34,7 +34,7 @@ const projects = [
     img: './assets/mode.png',
     title: 'Automated Time Mode',
     github: 'https://github.com/Emmanuel-obiora/Mode/actions/new',
-    demo: 'https://vimeo.com/772726415/740402981e'
+    demo: 'https://emmanuel-obiora.github.io/Mode/'
   },
   {
     img: './assets/hotel.png',
