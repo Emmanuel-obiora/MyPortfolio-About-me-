@@ -34,10 +34,10 @@ This project was completed through the use of the following technologies.
 ## Illustrations
 
 ![About](./web-content/assets/about-me.png)
-Image showing about me section.
+Image showing about me page.
 
 ![Contact](./web-content/assets/contact.png)
-Image showing a customer default profile page.
+Image showing contact form.
 
 ## Scope of Functionalities
 
