@@ -52,21 +52,32 @@ a{
 .green{
   color: rgb(38, 224, 38);
 }
-// @mixin media-md {
-//   @media screen and (min-width: 768px) {
-//     @content;
-    
-//   }
-// }
 
-// @mixin media-lg {
-//   @media screen and (min-width: 1024px) {
-//     @content;
-//   }
-// }
+::-webkit-scrollbar{
+  width: 1em;
+}
 
-// @mixin media-xl {
-//   @media screen and (min-width: 1600px) {
-//     @content;
-//   }
-// }
+::-webkit-scrollbar-thumb{
+  background-color: $primary-color;
+  border-radius: 8px;
+  border: .2em solid $color-light;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: $primary-varient;
+  border: .2em solid white;
+}
+
+::-webkit-scrollbar-track{
+  background-color: $color-light;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track:hover{
+  background-color: white;
+}
+
+@supports(scrollbar-color: $primary-color){
+  *{
+    scrollbar-color: $primary-color;
+    scrollbar-width: thin;
+  }
+}

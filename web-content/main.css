@@ -31,6 +31,36 @@ a:hover {
   color: rgb(38, 224, 38);
 }
 
+::-webkit-scrollbar {
+  width: 1em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1F1F38;
+  border-radius: 8px;
+  border: 0.2em solid rgba(255, 255, 255, 0.8);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2C2C6C;
+  border: 0.2em solid white;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: white;
+}
+
+@supports (scrollbar-color: #1F1F38) {
+  * {
+    scrollbar-color: #1F1F38;
+    scrollbar-width: thin;
+  }
+}
 .home {
   height: 100vh;
   overflow: hidden;
