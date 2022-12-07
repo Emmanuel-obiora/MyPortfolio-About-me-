@@ -147,17 +147,16 @@ a:hover {
   }
 }
 
-.footer__container {
-  display: flex;
-  margin-bottom: 1rem;
-  align-items: center;
-  width: 100%;
-}
 .footer__container .social-icons1 {
   display: flex;
   gap: 0.5rem;
-  align-items: center;
-  padding-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  left: 1rem;
+  text-align: left;
+  padding: 0.5rem;
 }
 .footer__container .foot {
   margin-bottom: 1rem;
@@ -484,7 +483,7 @@ a:hover {
 }
 @media (max-width: 37.5rem) {
   .experience_container {
-    width: 80%;
+    width: 65%;
     display: grid;
   }
 }
@@ -518,6 +517,7 @@ a:hover {
   justify-content: space-between;
   -moz-column-gap: 2rem;
        column-gap: 2rem;
+  width: 40%;
 }
 .experience_container .experience_content .experience_details {
   display: flex;
@@ -529,10 +529,10 @@ a:hover {
 .experience .social-icons {
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
+  margin: 0 0 2rem 0;
 }
 .experience footer {
-  margin: 0 1rem 2rem 0;
+  margin: 0 0.7rem 2rem 0;
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
@@ -628,8 +628,9 @@ a:hover {
   }
 }
 .contact_mid-left {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: justify;
   gap: 1rem;
   width: 100%;
 }

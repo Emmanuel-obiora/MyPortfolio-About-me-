@@ -175,7 +175,7 @@
     font-size: 18px;
 
     @media (max-width: 37.5rem){
-      width: 80%;
+      width: 65%;
       display: grid;
     }
     
@@ -211,6 +211,7 @@
         row-gap: 2rem;
         justify-content: space-between;
         column-gap: 2rem;
+        width: 40%;
   
         .experience_details{
           display: flex;
@@ -228,11 +229,11 @@
   .social-icons {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin: 0 0 2rem 0;
   }
   
   footer {
-    margin: 0 1rem 2rem 0;
+    margin: 0 .7rem 2rem 0;
     transform: rotate(90deg) translate(-3rem, -5rem);
   }
 }

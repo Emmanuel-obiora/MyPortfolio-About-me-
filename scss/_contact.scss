@@ -31,8 +31,9 @@
     }
 
     &-left{
-      display: grid;
-      grid-template-columns: 1fr;
+      display: flex;
+      flex-direction: column;
+      align-items: justify;
       gap: 1rem;
       width: 100%;
 
