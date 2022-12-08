@@ -46,6 +46,8 @@
     }
     
     &_me{
+      // once you upload your pics remove the diplay property
+      display: none;  
       background: linear-gradient($secondary-color, transparent);
       width: 30%;
       height: 20rem;
@@ -96,6 +98,19 @@
     left: 1rem;
     text-align: left;
     padding: .5rem;
+
+    @media(max-width: 37.5rem){
+      display:none;
+    }
+
+    a {
+      padding: 0.4rem;
+      @include transition-ease;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
   }
 
   .foot{

@@ -4,6 +4,7 @@ const hamburger = document.querySelector(".menu-btn__burger");
 const nav = document.querySelector(".nav");
 const menuNav = document.querySelector(".menu-nav");
 const navItems = document.querySelectorAll(".menu-nav__item");
+const modalB = document.getElementById('hideScreen');
 
 let showMenu = false;
 
@@ -15,6 +16,7 @@ function toggleMenu() {
     nav.classList.add("open");
     menuNav.classList.add("open");
     navItems.forEach((item) => item.classList.add("open"));
+    modalB.classList.add('open-modal');
 
     showMenu = true;
   } else {
@@ -22,6 +24,7 @@ function toggleMenu() {
     nav.classList.remove("open");
     menuNav.classList.remove("open");
     navItems.forEach((item) => item.classList.remove("open"));
+    modalB.classList.remove('open-modal');
 
     showMenu = false;
   }
@@ -40,7 +43,7 @@ const projects = [
     img: './assets/hotel.png',
     title: 'Responsive Hotel Page',
     github: 'https://github.com/tolujacob05/HOTEL-project',
-    demo: 'https://vimeo.com/774855500'
+    demo: '#'
   },
   {
     img : './assets/yummyfoods.png',

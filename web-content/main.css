@@ -109,6 +109,7 @@ a:hover {
   gap: 1rem;
 }
 .home_me {
+  display: none;
   background: linear-gradient(#4db5FF, transparent);
   width: 30%;
   height: 20rem;
@@ -161,6 +162,18 @@ a:hover {
   left: 1rem;
   text-align: left;
   padding: 0.5rem;
+}
+@media (max-width: 37.5rem) {
+  .footer__container .social-icons1 {
+    display: none;
+  }
+}
+.footer__container .social-icons1 a {
+  padding: 0.4rem;
+  transition: all 0.5s ease-in-out;
+}
+.footer__container .social-icons1 a:hover {
+  color: #4db5FF;
 }
 .footer__container .foot {
   margin-bottom: 1rem;
@@ -334,7 +347,7 @@ a:hover {
   padding: 10%;
 }
 .about-main_top {
-  margin: 2.5rem 0 0.5rem 0;
+  margin: 0 0 0.5rem 0;
 }
 .about-main h2, .about-main h5 {
   text-align: center;
@@ -468,7 +481,7 @@ a:hover {
   align-items: center;
   height: 100vh;
   width: auto;
-  padding: 5%;
+  padding: 10%;
 }
 @media (max-width: 64rem) {
   .experience {
@@ -507,6 +520,9 @@ a:hover {
 @media (max-width: 37.5rem) {
   .experience_container > div {
     padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
   }
 }
 .experience_container > div:hover {
@@ -528,6 +544,11 @@ a:hover {
        column-gap: 2rem;
   width: 40%;
 }
+@media (max-width: 37.5rem) {
+  .experience_container .experience_content {
+    grid-template-columns: 1fr;
+  }
+}
 .experience_container .experience_content .experience_details {
   display: flex;
   gap: 1rem;
@@ -541,6 +562,7 @@ a:hover {
   margin: 0 0 2rem 0;
 }
 .experience footer {
+  position: fixed;
   margin: 0 0.7rem 2rem 0;
   transform: rotate(90deg) translate(-3rem, -5rem);
 }
@@ -591,9 +613,6 @@ a:hover {
 .projects .portfolio_container .portfolio_item-image {
   border-radius: 1.5rem;
   overflow: hidden;
-}
-.projects .portfolio_container .portfolio_item-image > video {
-  margin: 0 auto;
 }
 .projects .social-icons {
   display: flex;
@@ -664,11 +683,15 @@ a:hover {
   gap: 0.8rem;
   padding: 1rem;
   height: 7rem;
-  font-size: 20px;
+  font-size: 18px;
 }
 .contact_mid-left > article:hover {
   background: transparent;
   border: 2px solid rgba(77, 181, 255, 0.4);
+}
+.contact_mid-left > article > h5 {
+  display: block;
+  text-align: center;
 }
 .contact_mid > form {
   display: flex;
@@ -751,6 +774,22 @@ a:hover {
   .contact__footer > strong {
     transform: rotate(90deg) translate(0rem, -5rem);
   }
+}
+
+.hide-screen {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.open-modal {
+  display: block;
 }
 
 body {
