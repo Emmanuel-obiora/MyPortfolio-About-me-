@@ -155,7 +155,6 @@ a:hover {
 .footer__container .social-icons1 {
   display: flex;
   gap: 0.5rem;
-  margin-bottom: 1rem;
   font-size: 1rem;
   position: fixed;
   bottom: 0.4rem;
@@ -174,9 +173,6 @@ a:hover {
 }
 .footer__container .social-icons1 a:hover {
   color: #4db5FF;
-}
-.footer__container .foot {
-  margin-bottom: 1rem;
 }
 @media (max-width: 37.5rem) {
   .footer__container .foot {
@@ -479,7 +475,7 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
   width: auto;
   padding: 10%;
 }
