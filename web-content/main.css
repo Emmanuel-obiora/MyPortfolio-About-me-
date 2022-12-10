@@ -109,14 +109,12 @@ a:hover {
   gap: 1rem;
 }
 .home_me {
-  display: none;
   background: linear-gradient(#4db5FF, transparent);
-  width: 30%;
-  height: 20rem;
-  margin: 3rem 35%;
-  border-radius: 12rem 12rem 0 0;
+  width: 28%;
+  margin: 3rem 36%;
+  border-radius: 15rem 15rem 0 0;
   overflow: hidden;
-  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  padding: 1.5rem;
 }
 @media (max-width: 64rem) {
   .home_me {
@@ -135,7 +133,7 @@ a:hover {
   }
 }
 .home_me img {
-  height: 45vh;
+  height: 48vh;
 }
 @media (max-width: 64rem) {
   .home_me img {
