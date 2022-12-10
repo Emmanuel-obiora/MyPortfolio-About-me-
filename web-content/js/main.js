@@ -43,7 +43,7 @@ const projects = [
     img: './assets/hotel.png',
     title: 'Responsive Hotel Page',
     github: 'https://github.com/tolujacob05/HOTEL-project',
-    demo: '#'
+    demo: 'https://vimeo.com/774855500'
   },
   {
     img : './assets/yummyfoods.png',
