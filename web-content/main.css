@@ -451,6 +451,9 @@ a:hover {
   color: rgba(255, 255, 255, 0.8);
   width: 20%;
 }
+.about-main .career_right-journey .direct-away {
+  cursor: pointer;
+}
 .about-main .career_right .parag {
   margin: 2rem 0;
   color: rgba(255, 255, 255, 0.8);
