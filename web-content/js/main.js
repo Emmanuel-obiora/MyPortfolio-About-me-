@@ -58,10 +58,10 @@ const projects = [
     demo: 'https://emmanuel-obiora.github.io/portfolio-about-me-/web-content/index.html'
   },
   {
-    img : './assets/nav-bar.png',
-    title: 'Responsive Nav Bar',
-    github: 'https://github.com/Emmanuel-obiora/Responsive-nav-bar-',
-    demo: 'https://vimeo.com/774849424'
+    img : './assets/news-homepage.png',
+    title: 'News Homepage',
+    github: 'https://github.com/Emmanuel-obiora/news-homepage-panther',
+    demo: 'https://emmanuel-obiora.github.io/news-homepage-panther/'
   },
   {
     img : './assets/todo-app.png',
