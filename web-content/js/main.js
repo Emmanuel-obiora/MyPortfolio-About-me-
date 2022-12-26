@@ -45,12 +45,6 @@ const projects = [
     github: 'https://github.com/tolujacob05/HOTEL-project',
     demo: 'https://vimeo.com/774855500'
   },
-  // {
-  //   img : './assets/yummyfoods.png',
-  //   title: 'Food Delivery Website',
-  //   github: 'https://github.com/Emmanuel-obiora/Yummy-foods',
-  //   demo: 'https://emmanuel-obiora.github.io/Yummy-foods/web-content/index.html'
-  // },
   {
     img : './assets/home.png',
     title: 'My Portfolio',
