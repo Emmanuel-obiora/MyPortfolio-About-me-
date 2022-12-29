@@ -62,6 +62,12 @@ const projects = [
     title: 'Todo App',
     github: 'https://github.com/Emmanuel-obiora/todo-app',
     demo: 'https://emmanuel-obiora.github.io/todo-app/'
+  },
+  {
+    img : './assets/chat-app.png',
+    title: 'Chat App',
+    github: 'https://github.com/Emmanuel-obiora/chat-app',
+    demo: 'https://emmanuel-obiora.github.io/chat-app/'
   }
 ];
 // console.log(projects.img);
