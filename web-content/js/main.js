@@ -40,16 +40,16 @@ const projects = [
     demo: 'https://emmanuel-obiora.github.io/Mode/'
   },
   {
-    img: './assets/hotel.png',
-    title: 'Responsive Hotel Page',
-    github: 'https://github.com/tolujacob05/HOTEL-project',
-    demo: 'https://vimeo.com/774855500'
+    img: './assets/QR-code.png',
+    title: 'QR code',
+    github: 'https://github.com/Emmanuel-obiora/QR-code',
+    demo: 'https://emmanuel-obiora.github.io/QR-code/'
   },
   {
-    img : './assets/home.png',
-    title: 'My Portfolio',
-    github: 'https://github.com/Emmanuel-obiora/portfolio-about-me-',
-    demo: 'https://emmanuel-obiora.github.io/portfolio-about-me-/web-content/index.html'
+    img : './assets/kanban.png',
+    title: 'Kanban Task Manager',
+    github: 'https://github.com/Emmanuel-obiora/kanban-panther',
+    demo: 'https://kanban-panther.netlify.app/'
   },
   {
     img : './assets/news-homepage.png',
