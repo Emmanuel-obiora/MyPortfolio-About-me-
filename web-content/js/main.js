@@ -29,6 +29,15 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+// ===TO DISPLAY ACCURATE YEAR IN PAGE FOOTER====
+
+function displayTime(){
+  var dateTime = new Date();
+  var yrs = dateTime.getFullYear();
+
+  document.querySelectorAll('#year').forEach((dateElement) => dateElement.innerHTML = yrs)
+}
+setInterval(displayTime, 10);
 
 // =======DYNAMIC LINKING OF COMPLETED PROJECTS====================
 
@@ -74,7 +83,7 @@ const projects = [
 
 let data = "";
 projects.map((values) => {
-  console.log(values);
+  // console.log(values);
    data+= `<article class="portfolio_item">
               <div class="portfolio_item-image">
                 <img src=${values.img} alt=${values.title}>
