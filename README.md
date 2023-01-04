@@ -33,10 +33,10 @@ This project was completed through the use of the following technologies.
 
 ## Illustrations
 
-![About](./web-content/assets/about-me.png)
+![About](./src/assets/about-me.png)
 Image showing about me page.
 
-![Contact](./web-content/assets/contact.png)
+![Contact](./src/assets/contact.png)
 Image showing contact form.
 
 ## Scope of Functionalities
@@ -63,13 +63,13 @@ This project was inspired by the will to learn more, and place myself better in 
 To run this project on your local machine, simply follow the steps below.
 
 * Install [Vscode](https://code.visualstudio.com/)
-* Go to [GitHub](https://github.com/Emmanuel-obiora/Yummy-foods)
+* Go to [GitHub](https://github.com/Emmanuel-obiora/portfolio-about-me-/)
 * Click on CODE and copy the HTTPS link to clone the project.
 * From your VScode terminal clone the project
 * Finally click GO Live to view on browser if live server is installed.
 * Else right click on the index file and click on open with (any browser installed on your pc would show here)
 
-Or you can view the published work by clicking this link [My Portfolio](https://emmanuel-obiora.github.io/portfolio-about-me-/web-content/)
+Or you can view the published work by clicking this link [My Portfolio](https://emmanuel-obiora.github.io/portfolio-about-me-/src/)
 
 ## Other Information
 

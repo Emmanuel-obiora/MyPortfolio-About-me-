@@ -96,12 +96,16 @@ footer{
 
   .foot{
     display: flex;
-    transform: rotate(90deg) translate(0, -2.8rem);
+    bottom: 1rem;
     padding: .5rem;
     gap: .3rem;
     font-size: 18px;
     position: fixed;
-    bottom: 5rem;
     right: 0;
+
+    @media(max-width: 64rem){
+      transform: rotate(90deg) translate(0, -2.8rem);
+      bottom: 5rem;
+    }
   }
 }
