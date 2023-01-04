@@ -126,35 +126,3 @@
     }
   }
 }
-
-.contact__footer{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 2rem;
-
-  & .social-icons{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 1rem;
-
-   @media(max-width: 37.5rem){
-      flex-direction: column;
-      margin-bottom: 2rem;
-   }
-
-   &>a{
-    &:hover{
-      color: $secondary-color;
-    }
-   }
-  }
-
-  &>strong{
-    @media(max-width: 37.5rem){
-    transform: rotate(90deg) translate(0rem, -5rem);
-    }
-  }
-}

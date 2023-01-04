@@ -1,5 +1,5 @@
 .home{
-    height: 100vh;
+    height: auto;
     overflow: hidden;
     text-align: center;
     background: linear-gradient(to  right, rgba($primary-color, 0.8), rgba($primary-color, 0.3));
@@ -48,7 +48,7 @@
     &_me{
       background: linear-gradient($secondary-color, transparent);
       width: 28%;
-      margin: 3rem 36%;
+      margin: 3rem 36% 0;
       border-radius: 15rem 15rem 0 0;
       overflow: hidden;
       padding: 1.5rem;
@@ -67,7 +67,7 @@
       }
 
       img{
-        height: 48vh;
+        height: 42.5vh;
 
         @media (max-width: 64rem){
           height: 38vh;
@@ -78,41 +78,3 @@
       }
     }
   }
-
-
-// =======STYLING THE INDEX FOOTER==============
-.footer__container{
-  display: flex;
-  align-items: center;
-
-  .social-icons1{
-    display: flex;
-    gap: .5rem;
-    font-size: 1rem;
-    position: fixed;
-    bottom: 0.4rem;
-    left: 1rem;
-    text-align: left;
-    padding: .5rem;
-
-    @media(max-width: 37.5rem){
-      display:none;
-    }
-
-    a {
-      padding: 0.4rem;
-      @include transition-ease;
-
-      &:hover {
-        color: $secondary-color;
-      }
-    }
-  }
-
-  .foot{
-
-    @media(max-width: 37.5rem){
-      padding: .5rem;
-    }
-  }
-}

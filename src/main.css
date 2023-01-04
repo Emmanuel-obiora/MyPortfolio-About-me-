@@ -62,7 +62,7 @@ a:hover {
   }
 }
 .home {
-  height: 100vh;
+  height: auto;
   overflow: hidden;
   text-align: center;
   background: linear-gradient(to right, rgba(31, 31, 56, 0.8), rgba(31, 31, 56, 0.3));
@@ -111,7 +111,7 @@ a:hover {
 .home_me {
   background: linear-gradient(#4db5FF, transparent);
   width: 28%;
-  margin: 3rem 36%;
+  margin: 3rem 36% 0;
   border-radius: 15rem 15rem 0 0;
   overflow: hidden;
   padding: 1.5rem;
@@ -133,7 +133,7 @@ a:hover {
   }
 }
 .home_me img {
-  height: 48vh;
+  height: 42.5vh;
 }
 @media (max-width: 64rem) {
   .home_me img {
@@ -143,38 +143,6 @@ a:hover {
 @media (max-width: 37.5rem) {
   .home_me img {
     height: 30vh;
-  }
-}
-
-.footer__container {
-  display: flex;
-  align-items: center;
-}
-.footer__container .social-icons1 {
-  display: flex;
-  gap: 0.5rem;
-  font-size: 1rem;
-  position: fixed;
-  bottom: 0.4rem;
-  left: 1rem;
-  text-align: left;
-  padding: 0.5rem;
-}
-@media (max-width: 37.5rem) {
-  .footer__container .social-icons1 {
-    display: none;
-  }
-}
-.footer__container .social-icons1 a {
-  padding: 0.4rem;
-  transition: all 0.5s ease-in-out;
-}
-.footer__container .social-icons1 a:hover {
-  color: #4db5FF;
-}
-@media (max-width: 37.5rem) {
-  .footer__container .foot {
-    padding: 0.5rem;
   }
 }
 
@@ -365,7 +333,6 @@ a:hover {
 }
 .about-main .career .user__profile {
   display: flex;
-  aspect-ratio: 1/1;
   border-radius: 2rem;
   width: 100%;
   height: 22rem;
@@ -553,16 +520,6 @@ a:hover {
 .experience_container .experience_content .experience_details > i {
   margin-top: 6px;
 }
-.experience .social-icons {
-  display: flex;
-  flex-direction: column;
-  margin: 0 0 2rem 0;
-}
-.experience footer {
-  position: fixed;
-  margin: 0 0.7rem 2rem 0;
-  transform: rotate(90deg) translate(-3rem, -5rem);
-}
 
 .projects {
   margin-bottom: 0;
@@ -610,15 +567,6 @@ a:hover {
 .projects .portfolio_container .portfolio_item-image {
   border-radius: 1.5rem;
   overflow: hidden;
-}
-.projects .social-icons {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
-}
-.projects footer {
-  margin: 0 1rem 2rem 0;
-  transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 .contact {
@@ -745,34 +693,6 @@ a:hover {
   border: 1px solid rgba(255, 255, 255, 0.8);
 }
 
-.contact__footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 2rem;
-}
-.contact__footer .social-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
-@media (max-width: 37.5rem) {
-  .contact__footer .social-icons {
-    flex-direction: column;
-    margin-bottom: 2rem;
-  }
-}
-.contact__footer .social-icons > a:hover {
-  color: #4db5FF;
-}
-@media (max-width: 37.5rem) {
-  .contact__footer > strong {
-    transform: rotate(90deg) translate(0rem, -5rem);
-  }
-}
-
 .hide-screen {
   display: none;
   position: fixed;
@@ -848,29 +768,33 @@ header {
   padding: 1rem;
 }
 
-main {
-  height: 100vh;
-  width: 100%;
+footer {
+  display: flex;
+  align-items: center;
 }
-main .social-icons {
+footer .social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
   position: fixed;
   bottom: 1rem;
-  left: 1rem;
 }
-main .social-icons a {
+footer .social-icons a {
   padding: 0.4rem;
   transition: all 0.5s ease-in-out;
 }
-main .social-icons a:hover {
+footer .social-icons a:hover {
   color: #4db5FF;
 }
-
-footer {
-  font-size: 1rem;
+footer .foot {
+  display: flex;
+  transform: rotate(90deg) translate(0, -2.8rem);
+  padding: 0.5rem;
+  gap: 0.3rem;
+  font-size: 18px;
   position: fixed;
-  bottom: 0.4rem;
-  right: 1rem;
-  text-align: right;
-  padding: 1rem;
-  color: #fff;
+  bottom: 5rem;
+  right: 0;
 }
