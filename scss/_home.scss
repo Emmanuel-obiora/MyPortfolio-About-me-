@@ -1,80 +1,61 @@
 .home{
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-    background: linear-gradient(to  right, rgba($primary-color, 0.8), rgba($primary-color, 0.3));
+  display: grid;
+  padding: 3rem;
+  margin: 0 auto;
+  row-gap: .5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
-    &_title{
-      margin-top: 2rem;
-    }
+  @media (max-width: 37.5rem){
+    padding: 2rem;
+  }
 
-    &_title_bot{
-      margin-bottom: 2rem;
-    }
-    &__name {
-      margin-top: .8rem;
-      font-size: 5rem;
-      margin-bottom: .5rem;
-      // border-bottom: 2px solid $secondary-color;
+  &_title{
+    font-size: 3rem;
 
-      @media (max-width: 64rem){
-        font-size: 4rem;
-      }
-      @media (max-width: 37.5rem){
-        font-size: 3rem;
-      }
-  
-      &--last {
-        color: $secondary-color;
-        font-weight: 700;
-
-        @media (max-width: 64rem){
-          font-weight: 500;
-        }
-
-        @media (max-width: 37.5rem){
-          font-weight: 300;
-        }
-      }
-    }
-
-    .cta{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 1rem;
-    }
-    
-    &_me{
-      background: linear-gradient($secondary-color, transparent);
-      width: 28%;
-      margin: 3rem 36% 0;
-      border-radius: 15rem 15rem 0 0;
-      overflow: hidden;
-      padding: 1.5rem;
-
-      @media (max-width: 64rem){
-        width: 40%;
-        margin: 3rem 30%;
-        height: 18rem;
-        padding: 3rem 1.5rem 1.5rem 1.5rem;
-      }
-      @media (max-width: 37.5rem){
-        width: 50%;
-        margin: 4rem 25%;
-        height: 14rem;
-        padding: 1.5rem;
-      }
-
-      img{
-        height: 42.5vh;
-
-        @media (max-width: 64rem){
-          height: 38vh;
-        }
-        @media (max-width: 37.5rem){
-          height: 30vh;
-        }
-      }
+    @media (max-width: 37.5rem){
+      font-size: 2.5rem;
     }
   }
+
+  &__name{
+    font-size: 3.5rem;
+
+    @media (max-width: 37.5rem){
+      font-size: 3rem;
+    }
+
+    &--last{
+      color: $secondary-color;
+    }
+  }
+
+  &_title_bot{
+    font-size: 2.5rem;
+
+    @media (max-width: 37.5rem){
+      font-size: 2rem;
+    }
+  }
+
+  &_me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto 0;
+
+    & > img{
+      width: 300px;
+      height: 300px;
+      box-shadow: 15px 10px 3px $secondary-color;
+    }
+  }
+}
+
+.cta{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}

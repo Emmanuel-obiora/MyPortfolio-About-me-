@@ -61,10 +61,10 @@ const projects = [
     demo: 'https://kanban-panther.netlify.app/'
   },
   {
-    img : './assets/news-homepage.png',
-    title: 'News Homepage',
-    github: 'https://github.com/Emmanuel-obiora/news-homepage-panther',
-    demo: 'https://emmanuel-obiora.github.io/news-homepage-panther/'
+    img : './assets/huddle.png',
+    title: 'huddle landing page',
+    github: 'https://github.com/Emmanuel-obiora/huddle-landing-page',
+    demo: 'https://emmanuel-obiora.github.io/huddle-landing-page/'
   },
   {
     img : './assets/todo-app.png',

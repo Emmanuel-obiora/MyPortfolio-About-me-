@@ -59,16 +59,10 @@
   .nav {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 25%;
-    margin: 0 0 0 75%;
+    right: 0;
+    width: 250px;
     opacity: 0.98;
     visibility: hidden;
-
-    @media (max-width: 37.5rem){
-      width: 30%;
-      margin: 0 0 0 70%;
-    }
   
     &.open {
       visibility: visible;
@@ -107,7 +101,7 @@
       &__link {
         display: inline-block;
         font-size: 1.2rem;
-        width: 50vw;
+        width: 55vw;
         text-align: center;
         text-transform: uppercase;
         padding: 2rem 0;
@@ -115,7 +109,7 @@
         @include transition-ease;
 
         @media (max-width: 37.5rem){
-          font-size: 0.8rem;
+          font-size: 1rem;
         }
       
   
