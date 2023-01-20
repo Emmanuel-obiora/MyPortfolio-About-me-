@@ -112,6 +112,8 @@ a:hover {
   width: 300px;
   height: 300px;
   box-shadow: 15px 10px 3px #4db5FF;
+  border: 5px solid rgba(77, 181, 255, 0.4);
+  border-radius: 5px;
 }
 
 .cta {

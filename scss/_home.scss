@@ -49,6 +49,8 @@
       width: 300px;
       height: 300px;
       box-shadow: 15px 10px 3px $secondary-color;
+      border: 5px solid $secondary-varient;
+      border-radius: 5px;
     }
   }
 }
