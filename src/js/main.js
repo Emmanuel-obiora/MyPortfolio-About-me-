@@ -49,10 +49,10 @@ const projects = [
     demo: 'https://emmanuel-obiora.github.io/Mode/'
   },
   {
-    img: './assets/QR-code.png',
-    title: 'QR code',
-    github: 'https://github.com/Emmanuel-obiora/QR-code',
-    demo: 'https://emmanuel-obiora.github.io/QR-code/'
+    img: './assets/faq.png',
+    title: 'FAQ accordion card',
+    github: 'https://github.com/Emmanuel-obiora/faq-accordion-card',
+    demo: 'https://emmanuel-obiora.github.io/faq-accordion-card/'
   },
   {
     img : './assets/kanban.png',
