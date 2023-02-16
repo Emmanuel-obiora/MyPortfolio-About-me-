@@ -75,7 +75,7 @@ a:hover {
 }
 @media (max-width: 37.5rem) {
   .home_title {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 .home__name {
@@ -83,7 +83,7 @@ a:hover {
 }
 @media (max-width: 37.5rem) {
   .home__name {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
 }
 .home__name--last {
@@ -94,18 +94,18 @@ a:hover {
 }
 @media (max-width: 37.5rem) {
   .home_title_bot {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 .home_me {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem auto 0;
+  margin: 2rem auto 0;
 }
 .home_me > img {
-  width: 290px;
-  height: 290px;
+  width: 280px;
+  height: 280px;
   box-shadow: 15px 10px 3px #4db5FF;
   border: 5px solid rgba(77, 181, 255, 0.4);
   border-radius: 5px;

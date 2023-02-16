@@ -15,7 +15,7 @@
     font-size: 3rem;
 
     @media (max-width: 37.5rem){
-      font-size: 1.8rem;
+      font-size: 1.7rem;
     }
   }
 
@@ -23,7 +23,7 @@
     font-size: 3.5rem;
 
     @media (max-width: 37.5rem){
-      font-size: 2.5rem;
+      font-size: 2.3rem;
     }
 
     &--last{
@@ -35,7 +35,7 @@
     font-size: 2.5rem;
 
     @media (max-width: 37.5rem){
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
   }
 
@@ -43,11 +43,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem auto 0;
+    margin: 2rem auto 0;
 
     & > img{
-      width: 290px;
-      height: 290px;
+      width: 280px;
+      height: 280px;
       box-shadow: 15px 10px 3px $secondary-color;
       border: 5px solid $secondary-varient;
       border-radius: 5px;
