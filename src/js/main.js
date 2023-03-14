@@ -55,16 +55,16 @@ const projects = [
     demo: 'https://emmanuel-obiora.github.io/faq-accordion-card/'
   },
   {
-    img : './assets/kanban.png',
-    title: 'Kanban Task Manager',
-    github: 'https://github.com/Emmanuel-obiora/kanban-panther',
-    demo: 'https://kanban-panther.netlify.app/'
+    img : './assets/intro-with-sign-up-form.png',
+    title: 'intro-component-with-sign-up-form',
+    github: 'https://github.com/Emmanuel-obiora/intro-component-with-sign-up-form',
+    demo: 'https://intro-with-signupform.netlify.app/'
   },
   {
-    img : './assets/huddle.png',
-    title: 'huddle landing page',
-    github: 'https://github.com/Emmanuel-obiora/huddle-landing-page',
-    demo: 'https://emmanuel-obiora.github.io/huddle-landing-page/'
+    img : './assets/interactive-card.png',
+    title: 'Interactive Card',
+    github: 'https://github.com/Emmanuel-obiora/interactive-card/',
+    demo: 'https://emmanuel-obiora.github.io/interactive-card/'
   },
   {
     img : './assets/todo-app.png',
